@@ -1,0 +1,21 @@
+{
+    "name": "yii2/project-template",
+    "platform": ["yii2"],
+    "keywords": ["yii2", "project", "template", "scaffolding"],
+    "description": "Yii 2 Dvamigos Project template with scaffolding.",
+    "author": "Aleksandar Panic",
+    "version": "1.0.0",
+    "features": {
+        "api": "add-api/index.js"
+    },
+    "scaffolding": {
+        "model": "add-scaffolding/index.js"
+    },
+    "commands": {
+        "add-s": {
+            "description": "adds stuff",
+            "short": "ads",
+            "main": "commands/add-s.js"
+        }
+    }
+}

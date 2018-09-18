@@ -1,0 +1,31 @@
+{
+  "name": "@2aminternal/dvamigos-cli",
+  "version": "1.0.0",
+  "description": "Project scaffolding initializer using templates.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2amBIH/dvamigos-cli.git"
+  },
+  "keywords": [
+    "project",
+    "scaffolding",
+    "initializer",
+    "templates"
+  ],
+  "author": "Aleksandar Panic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2amBIH/dvamigos-cli/issues"
+  },
+  "homepage": "https://github.com/2amBIH/dvamigos-cli#readme",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  },
+  "dependencies": {
+    "node-rest-client": "^3.1.0"
+  }
+}
