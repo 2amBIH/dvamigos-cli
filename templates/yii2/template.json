@@ -12,10 +12,6 @@
         "model": "add-scaffolding/index.js"
     },
     "commands": {
-        "add-s": {
-            "description": "adds stuff",
-            "short": "ads",
-            "main": "commands/add-s.js"
-        }
+        "add-s": "commands/add-s.js"
     }
 }
