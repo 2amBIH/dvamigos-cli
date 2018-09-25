@@ -2,8 +2,6 @@ const NewCommand = require('./new');
 
 describe('new command arguments test', () => {
 
-    
-
     test('should have arguments', () => {
         expect(getInstance().arguments.length).toBeGreaterThan(0)
     });

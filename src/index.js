@@ -2,6 +2,10 @@ const fs = require('fs');
 const path = require('path');
 const std = require('./std');
 
+const args = std.parseArguments(process.argv.splice(2));
+
+console.log(args);
+
 function getFiles(directoryPath) {
     return fs
         .readdirSync(directoryPath)
