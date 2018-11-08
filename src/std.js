@@ -39,9 +39,9 @@ function parseArguments(args) {
         .map(i => i.replace('--', '').replace('-', '').split('='));
         
     return {
-        order: args.reduce((a, i) => a.push(i[0]) && a, []),
-        items: args.reduce((acc, i) => {
-            acc[i[0]] = i[1] !== undefined ? i[1] : true;
+        order: args.reduce((a, [key]) => a.push(key) && a, []),
+        items: args.reduce((acc, [key, value]) => {
+            acc[key] = value !== undefined ? value : true;
             return acc;
         }, {})
     }
